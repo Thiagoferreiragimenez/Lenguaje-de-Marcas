@@ -1,0 +1,51 @@
+body {
+    font-family: "Courier New", Courier, monospace;
+}
+
+
+#identificador {
+    background-color: gray;
+}
+
+
+h1 {
+    font-size: 2em;
+    margin: 0.5em 0;
+}
+
+h1.especial {
+    color: blue;
+}
+
+
+h2, h3 {
+    border: 1px solid orange;
+    padding: 5px;
+}
+
+
+ul > li {
+    color: red; 
+}
+
+ul > li > ul > li {
+    color: green; 
+}
+
+
+p > img {
+    border: 5px solid black;
+}
+
+img[alt="segunda"] {
+    border-color: red;
+}
+
+
+h3 + p {
+    background-color: blue;
+}
+
+p + h3 {
+    background-color: pink;
+}
